@@ -79,7 +79,7 @@ def make_updated_schema(current, classifier, datatype, discreteness):
     if datatype:
       updated_schema['dataType'] = datatype
     if discreteness:
-      updated_schema['discretness'] = discreteness
+      updated_schema['discreteness'] = discreteness
     return updated_schema
 
 if __name__ == '__main__':
